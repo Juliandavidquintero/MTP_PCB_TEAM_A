@@ -3836,6 +3836,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 138.43 73.66)
@@ -3950,6 +4046,74 @@
 	(no_connect
 		(at 71.12 180.34)
 		(uuid "00f1806c-4158-494e-882b-c5ac9b7a930c")
+	)
+	(no_connect
+		(at 93.98 78.74)
+		(uuid "06909154-1947-484a-9a60-f94e95236ce6")
+	)
+	(no_connect
+		(at 93.98 53.34)
+		(uuid "1c999ba2-f77c-48b2-b479-ff8aa028f9a1")
+	)
+	(no_connect
+		(at 162.56 68.58)
+		(uuid "1cb9712b-a021-4244-a009-eb71cbf9153f")
+	)
+	(no_connect
+		(at 93.98 83.82)
+		(uuid "1f581a57-9de6-4cc4-b53a-b4278b5d5cd2")
+	)
+	(no_connect
+		(at 162.56 45.72)
+		(uuid "20b6bc6b-e552-42dd-b493-310852f5a57b")
+	)
+	(no_connect
+		(at 93.98 73.66)
+		(uuid "23a804ce-56be-4ede-a265-a2feca797114")
+	)
+	(no_connect
+		(at 162.56 83.82)
+		(uuid "3326c4f7-cf49-4bd3-b6eb-d779b12e4ef5")
+	)
+	(no_connect
+		(at 93.98 40.64)
+		(uuid "4f91734a-a0d8-4f82-be4c-8b4974a4f235")
+	)
+	(no_connect
+		(at 162.56 71.12)
+		(uuid "57254d3a-dc6f-4484-8ca9-bdc29d8ff54f")
+	)
+	(no_connect
+		(at 162.56 81.28)
+		(uuid "5ada4973-d48e-416a-afaf-2c8feaad5ff2")
+	)
+	(no_connect
+		(at 93.98 76.2)
+		(uuid "732114d3-4d07-4346-bd82-dbc7e2471c78")
+	)
+	(no_connect
+		(at 93.98 55.88)
+		(uuid "7504995a-2f2a-40f4-9d57-cab0a72863cc")
+	)
+	(no_connect
+		(at 93.98 45.72)
+		(uuid "7d61de8a-4343-45e4-92d4-b17a00763c65")
+	)
+	(no_connect
+		(at 93.98 50.8)
+		(uuid "839e0e17-cefe-49eb-949d-1d26893c6184")
+	)
+	(no_connect
+		(at 93.98 81.28)
+		(uuid "8c224b65-ff93-44bf-9b92-d78c2211ef13")
+	)
+	(no_connect
+		(at 63.5 68.58)
+		(uuid "9a49586b-dbcf-4a3c-a257-4fc99291a2df")
+	)
+	(no_connect
+		(at 162.56 76.2)
+		(uuid "a532dae3-4e31-427d-918a-991f8acb88ad")
 	)
 	(wire
 		(pts
@@ -4343,6 +4507,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 95.25) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9445f6-a6f4-48db-b3cc-cb5fa943d679")
+	)
+	(wire
+		(pts
 			(xy 237.49 53.34) (xy 237.49 55.88)
 		)
 		(stroke
@@ -4733,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 21.59) (xy 146.05 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99069e14-90b2-4b66-9886-d944a6ab9fca")
+	)
+	(wire
+		(pts
 			(xy 93.98 76.2) (xy 123.19 76.2)
 		)
 		(stroke
@@ -4973,6 +5157,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 22.86) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0ad9d4-6112-4069-8127-4037794ee6d6")
+	)
+	(wire
+		(pts
 			(xy 118.11 38.1) (xy 123.19 38.1)
 		)
 		(stroke
@@ -4983,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 86.36 74.93)
+			(xy 86.36 72.39) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5717,7 +5911,7 @@
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 128.27 60.96 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6098,6 +6292,135 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b509dac-2cec-48a0-afcb-2c0783cd8f55")
+		(property "Reference" "#FLG03"
+			(at 129.54 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab48c9d6-7055-46bd-ba1f-0ba44c69cf55")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22276ed8-c158-4f4a-bb61-580056cfa767")
+		(property "Reference" "#PWR014"
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.3917 29.7244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6474c7ce-6dd6-4a44-b4cb-a748d98b8b15")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 93.98 170.18 0)
 		(unit 1)
@@ -6237,7 +6560,7 @@
 		(lib_id "Device:LED")
 		(at 207.01 50.8 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6305,7 +6628,7 @@
 		(lib_id "Device:LED")
 		(at 181.61 86.36 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6373,7 +6696,7 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 96.52 180.34 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6432,6 +6755,69 @@
 			(project "RaspberryPi-uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "479b314b-b045-40b2-91af-b133324fa14b")
+		(property "Reference" "#PWR015"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.6543 102.1144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91fe8210-a7f9-4c54-95c9-5dd1790e9768")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6895,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 86.36 74.93 0)
+		(at 86.36 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6518,7 +6904,7 @@
 		(fields_autoplaced yes)
 		(uuid "5275364d-4eae-496e-a6b6-5d23f416b201")
 		(property "Reference" "#PWR06"
-			(at 86.36 81.28 0)
+			(at 86.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 80.01 0)
+			(at 86.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 74.93 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 74.93 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 74.93 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +7028,7 @@
 		(lib_id "Device:LED")
 		(at 226.06 58.42 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6774,6 +7160,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e636809-cbfb-43d2-ab6e-9cba2e7c0edc")
+		(property "Reference" "#PWR013"
+			(at 146.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 145.6817 28.4544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c938c41-ede0-44e0-b0bd-fe20a3640271")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 86.36 54.61 0)
 		(unit 1)
@@ -6843,7 +7292,7 @@
 		(lib_id "Switch:SW_DIP_x04")
 		(at 180.34 55.88 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6929,7 +7378,7 @@
 		(lib_id "Memory_EEPROM:CAT24C256")
 		(at 81.28 177.8 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7011,10 +7460,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7012b4fe-eecd-43c5-80b4-59803a46d814")
+		(property "Reference" "#FLG01"
+			(at 146.05 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1bed272-a8d6-4b1b-9e5e-bfda3d6d59a6")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 219.71 55.88 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7219,7 +7734,7 @@
 		(lib_id "Device:LED")
 		(at 213.36 53.34 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7423,7 +7938,7 @@
 		(at 71.12 63.5 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7689,10 +8204,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be02ea54-76be-40a9-872b-588b83efee53")
+		(property "Reference" "#FLG02"
+			(at 111.76 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c50fc2a-a892-4de1-b24b-6d0f0e467b06")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
 		(at 73.66 40.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
