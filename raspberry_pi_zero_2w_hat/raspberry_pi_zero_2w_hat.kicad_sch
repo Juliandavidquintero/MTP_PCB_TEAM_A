@@ -2859,6 +2859,188 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -3544,6 +3726,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 38.1) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b1dfd3-842b-415b-ba55-ece05f211e2f")
+	)
+	(wire
+		(pts
 			(xy 138.43 60.96) (xy 138.43 73.66)
 		)
 		(stroke
@@ -3594,6 +3786,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 41.91) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3218c9e6-97e2-4824-80cf-e5e9146b30b5")
+	)
+	(wire
+		(pts
 			(xy 120.65 48.26) (xy 123.19 48.26)
 		)
 		(stroke
@@ -3634,6 +3836,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 43.18) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371cfc36-1af9-47bf-9993-03c729671197")
+	)
+	(wire
+		(pts
 			(xy 123.19 71.12) (xy 93.98 71.12)
 		)
 		(stroke
@@ -3651,6 +3863,16 @@
 			(type default)
 		)
 		(uuid "39a9a372-4f7d-42c6-ad61-114a8dc37701")
+	)
+	(wire
+		(pts
+			(xy 80.01 43.18) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1770bd-011b-4cb3-ac66-f4c927fae0fc")
 	)
 	(wire
 		(pts
@@ -3761,16 +3983,6 @@
 			(type solid)
 		)
 		(uuid "62f43b49-7566-4f4c-b16f-9b95531f6d28")
-	)
-	(wire
-		(pts
-			(xy 93.98 43.18) (xy 123.19 43.18)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "67559638-167e-4f06-9757-aeeebf7e8930")
 	)
 	(wire
 		(pts
@@ -3894,6 +4106,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8ccd23-8d34-4850-9cbd-e9d0843bcbe8")
+	)
+	(wire
+		(pts
 			(xy 135.89 58.42) (xy 162.56 58.42)
 		)
 		(stroke
@@ -3921,6 +4143,16 @@
 			(type solid)
 		)
 		(uuid "8fcb2962-2812-4d94-b7ba-a3af9613255a")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915a9268-0aa3-4cba-9f62-07694c956ac7")
 	)
 	(wire
 		(pts
@@ -4041,6 +4273,16 @@
 			(type solid)
 		)
 		(uuid "c373340b-844b-44cd-869b-a1267d366977")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ef1966-833c-42dc-baf5-db4ae3d02481")
 	)
 	(wire
 		(pts
@@ -5795,7 +6037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NRF_Decoup"
+		(property "Value" "47uF"
 			(at 44.45 65.6081 0)
 			(effects
 				(font
@@ -5841,6 +6083,140 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 80.01 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebcbcdc-ad0c-4f6d-9ba8-bd48e52c7ac3")
+		(property "Reference" "#PWR010"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1892cf2d-9a46-4141-bbdb-b389a98deb55")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 63.5 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "952a7dae-0a70-443a-aec9-01263b10c755")
+		(property "Reference" "#PWR09"
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65574e19-1893-412c-857a-5a19a7246ec5")
+		)
+		(instances
+			(project "raspberry_pi_zero_2w_hat"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6112,6 +6488,76 @@
 			(project "RaspberryPi-uHAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 73.66 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1679a68-b650-4283-8323-4b70f69d8e68")
+		(property "Reference" "SW2"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 73.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31eac02b-e56b-49c0-b208-b9a944646582")
+		)
+		(pin "1"
+			(uuid "dfdb4a8c-2771-47c0-8338-f6e5a142092f")
+		)
+		(pin "3"
+			(uuid "5baaac02-8732-4ca8-8eab-abdafd96d704")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
