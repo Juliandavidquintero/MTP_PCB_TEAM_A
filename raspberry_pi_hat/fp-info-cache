@@ -1,4 +1,4 @@
-23839518362192040
+23841359651570095
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64693,13 +64693,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MT3608_boost_converter
-hw-045
-
-
-0
-4
-4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -67290,6 +67283,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NRF24L01P-MODULE-PCB
+XCVR_NRF24L01P-MODULE-PCB
+
+
+0
+10
+9
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -84521,6 +84521,13 @@ Package_TO_SOT_THT
 TO-251-3_Vertical
 TO-251-3, Vertical, RM 2.29mm, IPAK, see https://www.diodes.com/assets/Package-Files/TO251.pdf
 TO-251-3 Vertical RM 2.29mm IPAK
+0
+3
+3
+Package_TO_SOT_THT
+TO-254-P_470X1028X1955-3P
+NDE0003B
+Integrated Circuit
 0
 3
 3
