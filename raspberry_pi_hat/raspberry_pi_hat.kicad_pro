@@ -710,6 +710,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Raíz"
+    ],
+    [
+      "2a8615e5-e2b9-4439-b026-97ca37e1c38e",
+      "Transceiver"
+    ],
+    [
+      "acbfc947-ae57-46ef-b775-e46d9583227a",
+      "interface"
     ]
   ],
   "text_variables": {}
