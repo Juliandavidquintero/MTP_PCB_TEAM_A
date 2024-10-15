@@ -3511,7 +3511,7 @@
 		(descr "TO-220F-3, Horizontal, RM 2.54mm, see http://www.st.com/resource/en/datasheet/stp20nm60.pdf")
 		(tags "TO-220F-3 Horizontal RM 2.54mm")
 		(property "Reference" "IC2"
-			(at -0.46 -10.05 360)
+			(at -0.46 -10.05 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4432336b-b464-44f6-9300-a9cbe98da8a0")
@@ -3873,7 +3873,7 @@
 			(uuid "dae28f47-405c-4ed1-a715-68657bc6eb21")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.16 -5.55 360)
+			(at -1.16 -5.55 0)
 			(layer "F.Fab")
 			(uuid "0c091a70-caaf-4b07-83de-a26ba707bbd5")
 			(effects
@@ -4215,7 +4215,7 @@
 		(uuid "3e18d261-1861-4ddb-b29a-7aa2e63feeaf")
 		(at 141.5875 137.2125 180)
 		(property "Reference" "U1"
-			(at 32.4875 -16.9875 360)
+			(at 32.4875 -16.9875 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fafe13ef-e26f-465b-95a0-0c329c2cd39e")
@@ -4238,7 +4238,7 @@
 			)
 		)
 		(property "Footprint" "NRF24L01P-MODULE-PCB:XCVR_NRF24L01P-MODULE-PCB"
-			(at 16.8244 -7.8011 360)
+			(at 16.8244 -7.8011 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3eafdd14-dc9c-4904-ac02-3e114d2db3be")
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.8244 -7.8011 360)
+			(at 16.8244 -7.8011 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5653bb57-f591-4058-80d8-ad3d657a67bb")
@@ -4262,7 +4262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.8244 -7.8011 360)
+			(at 16.8244 -7.8011 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb2b7ec1-5262-45d6-bdc2-09462012f060")
@@ -5444,7 +5444,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-08A example for new part number: 22-27-2081, 8 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J6"
-			(at 20.66 0.7 360)
+			(at 20.66 0.7 0)
 			(layer "F.SilkS")
 			(uuid "5ef44584-bf49-46f9-9f28-f234f4ad44dc")
 			(effects
@@ -5455,7 +5455,7 @@
 			)
 		)
 		(property "Value" "LED_status"
-			(at 23.76 2.7 360)
+			(at 23.76 2.7 0)
 			(layer "F.Fab")
 			(uuid "4d200d7e-dc1c-4610-9064-406890f60c3d")
 			(effects
@@ -6040,7 +6040,7 @@
 			(uuid "e6d356a3-c73d-469f-b0fb-ba14b507e3ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 20.66 0.7 360)
+			(at 20.66 0.7 0)
 			(layer "F.Fab")
 			(uuid "d28f78c2-5f47-4147-8c94-dece7d06ec50")
 			(effects
@@ -6433,7 +6433,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R2"
-			(at -2.2 -0.8 360)
+			(at -2.2 -0.8 0)
 			(layer "F.SilkS")
 			(uuid "60dd23a2-2965-403f-aac6-7455babf56f6")
 			(effects
@@ -6444,7 +6444,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at -2.6 0.9 360)
+			(at -2.6 0.9 0)
 			(layer "F.Fab")
 			(uuid "4f543b4f-df32-4971-b394-3c980ac63b4c")
 			(effects
@@ -6659,7 +6659,7 @@
 			(uuid "02125fda-bee1-4898-8ad3-6414e818e65b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 0 360)
+			(at 6.35 0 0)
 			(layer "F.Fab")
 			(uuid "05bee58e-8664-4838-b14b-83c2e3a29840")
 			(effects
@@ -6719,7 +6719,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 3.1 -4.6 360)
+			(at 3.1 -4.6 0)
 			(layer "F.Fab")
 			(uuid "89b95b1b-7533-45ce-b43e-6a5edd82b46f")
 			(effects
@@ -8076,7 +8076,7 @@
 		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R1"
-			(at -2.05 -0.9 360)
+			(at -2.05 -0.9 0)
 			(layer "F.SilkS")
 			(uuid "3f3024b6-51a8-4abf-a0ea-fd502d10228a")
 			(effects
@@ -8087,7 +8087,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at -2.65 1.2 360)
+			(at -2.65 1.2 0)
 			(layer "F.Fab")
 			(uuid "8b0ad9f3-4471-480f-82b2-d39caffb30f5")
 			(effects
@@ -8302,7 +8302,7 @@
 			(uuid "9a09f989-5fac-41ce-9be8-48d92dc3e5b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 0 360)
+			(at 6.35 0 0)
 			(layer "F.Fab")
 			(uuid "bf83f662-249d-4ca6-af40-efa4b6c0073a")
 			(effects
