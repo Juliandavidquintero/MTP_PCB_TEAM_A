@@ -4660,6 +4660,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "1745610c-6db4-4895-81be-1d14e15c90b2")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/NRF24L01L+Antenna.STEP"
+			(offset
+				(xyz 0 8 3)
+			)
+			(scale
+				(xyz 1 1.1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
