@@ -1,0 +1,9 @@
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-F_Cu.gtl'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-B_Cu.gbl'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-F_Paste.gtp'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-F_Silkscreen.gto'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-B_Silkscreen.gbo'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-F_Mask.gts'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-B_Mask.gbs'.
+Plotted to 'C:\Users\JLN\Documents\UPC_MAESTRIA\MTP_Management_of_Telecomunications_Projects\Lab\raspberry pi hat\MTP_PCB\gerbers\raspberry_pi_hat-Edge_Cuts.gm1'.
+Info: Listo.
