@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*
+G04 #@! TF.CreationDate,2024-11-05T09:26:54+01:00*
+G04 #@! TF.ProjectId,raspberry_pi_hat,72617370-6265-4727-9279-5f70695f6861,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-11-05 09:26:54*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.500000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X114700000Y-106800000D02*
+X211000000Y-106800000D01*
+X211000000Y-156350000D01*
+X114700000Y-156350000D01*
+X114700000Y-106800000D01*
+M02*
